@@ -79,6 +79,6 @@
  pip install dacite==1.8.1
 ```
 
-### 6.2 執行api服務 執行restful目錄下的run.py
+### 5.2 執行api服務 執行restful目錄下的run.py
 
 python run.py
