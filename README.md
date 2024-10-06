@@ -32,7 +32,7 @@
 
 | method | path | Function |
 | --- | --- | --- |
-| GET | /grades/delete\_grade | 獲取所有課程的學生姓名學號和成績。 |
+| GET | /grades/get\_grade | 獲取所有課程的學生姓名學號和成績。 |
 | POST | /grades/create\_grade | 添加學生課程成績(傳入student\_name, course\_name,grade) |
 | PUT | /grades/update\_grade | 更學生成績（傳入student\_name和course\_name和修改grade）。                                                                        |
 | DELETE | /grades/delete\_grade | 刪除學生成績資料(傳入student\_name和course\_name) |
