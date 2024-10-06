@@ -6,10 +6,10 @@
 
 | method | path | Function |
 | --- | --- | --- |
-| GET | /student/get\_students | 回傳所有學生資料的列表。 |
-| POST | /student/create\_student | 新增一個學生（傳入JSON 格式，student\_name和studnet\_number）。 |
-| PUT | /student/update\_student | 更新現有的待辦事項（傳入 JSON 格式， student\_name 和new\_student\_name和new\_student\_number）。 |
-| DELETE | /student/delete\_student | 刪除特定的待辦事項（傳入 JSON 格式 student\_name ）。 |
+| GET | /students/get\_students | 回傳所有學生資料的列表。 |
+| POST | /students/create\_student | 新增一個學生（傳入JSON 格式，student\_name和studnet\_number）。 |
+| PUT | /students/update\_student | 更新現有的待辦事項（傳入 JSON 格式， student\_name 和new\_student\_name和new\_student\_number）。 |
+| DELETE | /students/delete\_student | 刪除特定的待辦事項（傳入 JSON 格式 student\_name ）。 |
 
 ## 2: 學生課表 API
 
@@ -32,10 +32,10 @@
 
 | method | path | Function |
 | --- | --- | --- |
-| GET | /grade/delete\_grade | 獲取所有課程的學生姓名學號和成績。 |
+| GET | /grades/delete\_grade | 獲取所有課程的學生姓名學號和成績。 |
 | POST | /grades/create\_grade | 添加學生課程成績(傳入student\_name, course\_name,grade) |
 | PUT | /grades/update\_grade | 更學生成績（傳入student\_name和course\_name和修改grade）。                                                                        |
-| DELETE | /grade/delete\_grade | 刪除學生成績資料(傳入student\_name和course\_name) |
+| DELETE | /grades/delete\_grade | 刪除學生成績資料(傳入student\_name和course\_name) |
 
 ## 4\. MYSQL
 
