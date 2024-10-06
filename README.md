@@ -106,7 +106,7 @@ python run.py
 
 ![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/4962a13ac75684f9ddf9cae26e9622b63b00b8bada98fc01.png)
 
-### 6.6 student\_grade裡面存放是id但不可能記得所有id是誰,操作grade需使用inner join讓資料比較直觀
+### 6.6 student\_grade裡面存放是id但不可能記得所有id是誰,輸入學生名稱獲取學生ID在使用inner join讓資料回傳比較直觀
 
 ![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/41c39ec59cdab2b9fdbc6fb10b7d2626a6825ff1fea1cfc8.png)
 
