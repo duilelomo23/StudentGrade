@@ -71,7 +71,7 @@
 
 ![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/08deeb2deaced6fefb795e27242dc32324fcc8484fc0ba47.png)
 
-### 6.2 Python套件安裝
+### 5.2 Python套件安裝
 
 ```plaintext
  pip install   Flask==3.0.3
