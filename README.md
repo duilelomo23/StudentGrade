@@ -97,12 +97,12 @@ python run.py
 
 ![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/35751b9683ed4b71c7a0d9ebe3c1f06c0ab5a0c7d123d1f8.png)
 
-### 6.4 使用put 呼叫 /students/update\_students 更新學生姓名或學號傳入student\_name和new\_student和new\_student\_number  
+### 6.4 使用put 呼叫 /students/update\_students 更新學生姓名或學號傳入(student\_name)和(new\_student)和(new\_student\_number)  
  
 
 ![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/de7b420b824b53708634bb379d5d8f7895a4ae9831157dff.png)
 
-### 6.5 使用delete 呼叫/student/delete\_student 刪除學生資料 傳入student\_name
+### 6.5 使用delete 呼叫/student/delete\_student 刪除學生資料 傳入(student\_name)
 
 ![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/4962a13ac75684f9ddf9cae26e9622b63b00b8bada98fc01.png)
 
@@ -114,7 +114,7 @@ python run.py
 
 ![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/df7c6838b1e8a73bc8053f76390eea76c5e3779645f54738.png)
 
-### 6.8 使用post 呼叫 /grade/create\_grade 傳入成績 (傳入student\_name和course\_name和grade)
+### 6.8 使用post 呼叫 /grade/create\_grade 傳入成績 (傳入(student\_name)和(course\_name)和(grade))
 
 ![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/dbe46c173ddd561fdfc92a0191d8622f9bb0a1b6d68ff387.png)
 
@@ -122,10 +122,10 @@ python run.py
 
 ![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/67f9f9bcb485f762fca9f4b7a285d23de38bd0ba5cc5173c.png)
 
-### 6.10 使用put 呼叫 /grades/update\_grade 傳入student\_name和course\_name和修改grade
+### 6.10 使用put 呼叫 /grades/update\_grade 傳入(student\_name)和(course\_name)和修改(grade)
 
 ![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/bb6925a693cd05ce85f03833b3d1900a7442fdeedb01cc5d.png)
 
-### 6.11使用delete 呼叫/grade/delete\_grade 刪除學生成績資料(傳入student\_name和course\_name)
+### 6.11使用delete 呼叫/grade/delete\_grade 刪除學生成績資料(傳入(student\_name)和(course\_name))
 
 ![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/b028a7db3220f3c98e88e228b83ddcea04a4629c7e414dcd.png)
