@@ -93,7 +93,7 @@ python run.py
 
 ![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/802105d7b5e318d2fc379355ad0fceb0ce7c3fb4d0bca6eb.png)
 
-###  6.3  未更改再次呼叫在MYSQL學號是唯一鍵不可重複 return error 
+###  6.3  在MYSQL學號是唯一鍵不可重複,未更改再次呼叫return error 
 
 ![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/35751b9683ed4b71c7a0d9ebe3c1f06c0ab5a0c7d123d1f8.png)
 
