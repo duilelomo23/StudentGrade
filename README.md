@@ -41,7 +41,7 @@
 
 ### 1.資料庫結構
 
-![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/68a071f529fea86b8089be5a53ce864bf9817dbba779f178.png)
+![](https://github.com/duilelomo23/StudentGrade/blob/main/pictureSQL/%E5%A4%9A%E5%B0%8D%E5%A4%9A.png)
 
 ## 5.安裝和執行
 
@@ -53,19 +53,19 @@
 
 ### 2\. 開啟MYSQL Workbench並登入
 
-![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/01efcfbc01abe3234a25e25bd50e9f3b245d94f3927ca52e.png)
+![](https://github.com/duilelomo23/StudentGrade/blob/main/pictureSQL/%E7%99%BB%E5%85%A5workbench.png)
 
 ### 3.複製students\_db.sql所有sql碼
 
-![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/7bacf26ad172013777514708de48f0e9e0b8245fb1f950c5.png)
+![](https://github.com/duilelomo23/StudentGrade/blob/main/pictureSQL/%E8%A4%87%E8%A3%BDsql%E7%A2%BC.png)
 
 ### 4.創建students\_db資料庫
 
-![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/dbcdb6d6a11c24745d3fb3b98e053d1cb567c523bd011a0c.png)
+![](https://github.com/duilelomo23/StudentGrade/blob/main/pictureSQL/%E6%96%B0%E5%A2%9Esutdent_db.png)
 
 ### 5.在資料庫空白處點右鍵刷新
 
-![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/ba182017252a986edf1e0aee91df2d55670d2bfaf20c1363.png)
+![](https://github.com/duilelomo23/StudentGrade/blob/main/pictureSQL/%E5%88%B7%E6%96%B0.png)
 
 ### 6\. 對資料表點選右鍵選擇Select Rows獲取測試資料
 
@@ -87,24 +87,24 @@ python run.py
 
 ###     6.1 使用 get 呼叫api /students/get\_students 獲取所有學生資料
 
-![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/3a12dd3b0cc43ea281c1a5a6dfa7aa2a80b01ac41a119d8c.png)
+![](https://github.com/duilelomo23/StudentGrade/blob/main/picture/%E7%8D%B2%E5%8F%96%E6%89%80%E6%9C%89%E5%AD%B8%E7%94%9F%E8%B3%87%E6%96%99.png)
 
 ###     6.2 使用post 呼叫 /students/create\_student    新增學生資料 傳入姓名(student\_name)和學號(student\_number)
 
-![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/802105d7b5e318d2fc379355ad0fceb0ce7c3fb4d0bca6eb.png)
+![](https://github.com/duilelomo23/StudentGrade/blob/main/picture/%E6%96%B0%E5%A2%9E%E8%B3%87%E6%96%99.png)
 
 ###  6.3  在MYSQL學號是唯一鍵不可重複,未更改再次呼叫return error 
 
-![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/35751b9683ed4b71c7a0d9ebe3c1f06c0ab5a0c7d123d1f8.png)
+![](https://github.com/duilelomo23/StudentGrade/blob/main/picture/%E9%87%8D%E8%A4%87return%20error.png)
 
 ### 6.4 使用put 呼叫 /students/update\_student 更新學生姓名或學號傳入(student\_name)和(new\_student)和(new\_student\_number)  
  
 
-![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/de7b420b824b53708634bb379d5d8f7895a4ae9831157dff.png)
+![](https://github.com/duilelomo23/StudentGrade/blob/main/picture/%E6%9B%B4%E6%96%B0%E8%B3%87%E6%96%99.png)
 
 ### 6.5 使用delete 呼叫/students/delete\_student 刪除學生資料 傳入(student\_name)
 
-![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/4962a13ac75684f9ddf9cae26e9622b63b00b8bada98fc01.png)
+![](https://github.com/duilelomo23/StudentGrade/blob/main/picture/%E5%88%AA%E9%99%A4%E8%B3%87%E6%96%99.png)
 
 ### 6.6 student\_grade裡面存放是id但不可能記得所有id是誰,輸入學生名稱獲取學生ID在使用inner join讓資料回傳比較直觀
 
@@ -112,19 +112,19 @@ python run.py
 
 ### 6.7使用get 呼叫/grades/get\_grades 獲取所有學生每個課程成績
 
-![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/df7c6838b1e8a73bc8053f76390eea76c5e3779645f54738.png)
+![](https://github.com/duilelomo23/StudentGrade/blob/main/picture/%E7%8D%B2%E5%8F%96%E6%89%80%E6%9C%89%E5%AD%B8%E7%94%9F%E6%AF%8F%E5%80%8B%E8%AA%B2%E7%A8%8B%E6%88%90%E7%B8%BE.png)
 
 ### 6.8 使用post 呼叫 /grades/create\_grade 傳入成績 (傳入(student\_name)和(course\_name)和(grade))
 
-![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/dbe46c173ddd561fdfc92a0191d8622f9bb0a1b6d68ff387.png)
+![](https://github.com/duilelomo23/StudentGrade/blob/main/picture/%E5%82%B3%E5%85%A5%E6%88%90%E7%B8%BE.png)
 
 ### 6.9 學生名稱或課程不存在return error
 
-![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/67f9f9bcb485f762fca9f4b7a285d23de38bd0ba5cc5173c.png)
+![](https://github.com/duilelomo23/StudentGrade/blob/main/picture/%E5%AD%B8%E7%94%9F%E5%90%8D%E7%A8%B1%E6%88%96%E8%AA%B2%E7%A8%8B%E4%B8%8D%E5%AD%98%E5%9C%A8return%20error.png)
 
 ### 6.10 使用put 呼叫 /grades/update\_grade 傳入(student\_name)和(course\_name)和修改(grade)
 
-![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/bb6925a693cd05ce85f03833b3d1900a7442fdeedb01cc5d.png)
+![](https://github.com/duilelomo23/StudentGrade/blob/main/picture/%E4%BF%AE%E6%94%B9%E6%88%90%E7%B8%BE.png)
 
 ### 6.11使用delete 呼叫/grades/delete\_grade 刪除學生成績資料(傳入(student\_name)和(course\_name))
 
