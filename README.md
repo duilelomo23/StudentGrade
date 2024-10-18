@@ -128,4 +128,4 @@ python run.py
 
 ### 6.11使用delete 呼叫/grades/delete\_grade 刪除學生成績資料(傳入(student\_name)和(course\_name))
 
-![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/b028a7db3220f3c98e88e228b83ddcea04a4629c7e414dcd.png)
+![](https://github.com/duilelomo23/StudentGrade/blob/main/picture/%E5%88%AA%E9%99%A4%E6%88%90%E7%B8%BE.png)
