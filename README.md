@@ -110,11 +110,11 @@ python run.py
 
 ![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/41c39ec59cdab2b9fdbc6fb10b7d2626a6825ff1fea1cfc8.png)
 
-### 6.7使用get 呼叫/grade/get\_grades 獲取所有學生每個課程成績
+### 6.7使用get 呼叫/grades/get\_grades 獲取所有學生每個課程成績
 
 ![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/df7c6838b1e8a73bc8053f76390eea76c5e3779645f54738.png)
 
-### 6.8 使用post 呼叫 /grade/create\_grade 傳入成績 (傳入(student\_name)和(course\_name)和(grade))
+### 6.8 使用post 呼叫 /grades/create\_grade 傳入成績 (傳入(student\_name)和(course\_name)和(grade))
 
 ![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/dbe46c173ddd561fdfc92a0191d8622f9bb0a1b6d68ff387.png)
 
@@ -126,6 +126,6 @@ python run.py
 
 ![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/bb6925a693cd05ce85f03833b3d1900a7442fdeedb01cc5d.png)
 
-### 6.11使用delete 呼叫/grade/delete\_grade 刪除學生成績資料(傳入(student\_name)和(course\_name))
+### 6.11使用delete 呼叫/grades/delete\_grade 刪除學生成績資料(傳入(student\_name)和(course\_name))
 
 ![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/b028a7db3220f3c98e88e228b83ddcea04a4629c7e414dcd.png)
