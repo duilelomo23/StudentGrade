@@ -47,27 +47,24 @@
 
 ### 5.1  mysql
 
-### 1.下載sql檔案後開啟
 
-![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/d3bb82cc8ff1a2218c5b74ba28f6be7ab1fbd9d4c50c0dd3.png)
-
-### 2\. 開啟MYSQL Workbench並登入
+### 1\. 開啟MYSQL Workbench並登入
 
 ![](https://github.com/duilelomo23/StudentGrade/blob/main/pictureSQL/%E7%99%BB%E5%85%A5workbench.png)
 
-### 3.複製students\_db.sql所有sql碼
+### 2\.複製students\_db.sql所有sql碼
 
 ![](https://github.com/duilelomo23/StudentGrade/blob/main/pictureSQL/%E8%A4%87%E8%A3%BDsql%E7%A2%BC.png)
 
-### 4.創建students\_db資料庫
+### 3\.創建students\_db資料庫
 
 ![](https://github.com/duilelomo23/StudentGrade/blob/main/pictureSQL/%E6%96%B0%E5%A2%9Esutdent_db.png)
 
-### 5.在資料庫空白處點右鍵刷新
+### 4\.在資料庫空白處點右鍵刷新
 
 ![](https://github.com/duilelomo23/StudentGrade/blob/main/pictureSQL/%E5%88%B7%E6%96%B0.png)
 
-### 6\. 對資料表點選右鍵選擇Select Rows獲取測試資料
+### 5\. 對資料表點選右鍵選擇Select Rows獲取測試資料
 
 ![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/08deeb2deaced6fefb795e27242dc32324fcc8484fc0ba47.png)
 
