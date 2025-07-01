@@ -103,26 +103,23 @@ python run.py
 
 ![](https://github.com/duilelomo23/StudentGrade/blob/main/picture/%E5%88%AA%E9%99%A4%E8%B3%87%E6%96%99.png)
 
-### 6.6 student\_grade裡面存放是id但不可能記得所有id是誰,輸入學生名稱獲取學生ID在使用inner join讓資料回傳比較直觀
 
-![](https://33333.cdn.cke-cs.com/kSW7V9NHUXugvhoQeFaf/images/41c39ec59cdab2b9fdbc6fb10b7d2626a6825ff1fea1cfc8.png)
-
-### 6.7使用get 呼叫/grades/get\_grades 獲取所有學生每個課程成績
+### 6.6使用get 呼叫/grades/get\_grades 獲取所有學生每個課程成績
 
 ![](https://github.com/duilelomo23/StudentGrade/blob/main/picture/%E7%8D%B2%E5%8F%96%E6%89%80%E6%9C%89%E5%AD%B8%E7%94%9F%E6%AF%8F%E5%80%8B%E8%AA%B2%E7%A8%8B%E6%88%90%E7%B8%BE.png)
 
-### 6.8 使用post 呼叫 /grades/create\_grade 傳入成績 (傳入(student\_name)和(course\_name)和(grade))
+### 6.7 使用post 呼叫 /grades/create\_grade 傳入成績 (傳入(student\_name)和(course\_name)和(grade))
 
 ![](https://github.com/duilelomo23/StudentGrade/blob/main/picture/%E5%82%B3%E5%85%A5%E6%88%90%E7%B8%BE.png)
 
-### 6.9 學生名稱或課程不存在return error
+### 6.8 學生名稱或課程不存在return error
 
 ![](https://github.com/duilelomo23/StudentGrade/blob/main/picture/%E5%AD%B8%E7%94%9F%E5%90%8D%E7%A8%B1%E6%88%96%E8%AA%B2%E7%A8%8B%E4%B8%8D%E5%AD%98%E5%9C%A8return%20error.png)
 
-### 6.10 使用put 呼叫 /grades/update\_grade 傳入(student\_name)和(course\_name)和修改(grade)
+### 6.9 使用put 呼叫 /grades/update\_grade 傳入(student\_name)和(course\_name)和修改(grade)
 
 ![](https://github.com/duilelomo23/StudentGrade/blob/main/picture/%E4%BF%AE%E6%94%B9%E6%88%90%E7%B8%BE.png)
 
-### 6.11使用delete 呼叫/grades/delete\_grade 刪除學生成績資料(傳入(student\_name)和(course\_name))
+### 6.10使用delete 呼叫/grades/delete\_grade 刪除學生成績資料(傳入(student\_name)和(course\_name))
 
 ![](https://github.com/duilelomo23/StudentGrade/blob/main/picture/%E5%88%AA%E9%99%A4%E6%88%90%E7%B8%BE.png)
